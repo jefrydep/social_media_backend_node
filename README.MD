@@ -1,6 +1,7 @@
 # SOCIAL MEDIA BACKEND
 
-## COMANDS
+
+## COMANDS USED TO INSTALL
 
 ```
 npm init -y
@@ -17,4 +18,11 @@ npm i helmet
 npm i morgan
 npm i jsonwebtoken
 npm i mongoose
+```
+
+
+### TO REBUIL PROJECT
+
+```
+npm i
 ```
