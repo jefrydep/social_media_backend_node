@@ -43,7 +43,8 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage});
 // routes with files
-app.post("/auth/register",upload.single("picture"),verifyToken,register)
+app.post("/auth/register",upload.single("picture"),register)
+// app.post("/auth/register",upload.single("picture"),verifyToken,register)
 // app.post("/posts",verifyToken,upload.single("picture"),createPost)
 // ROUTES
 app.use("/auth",authRoutes);
